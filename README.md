@@ -1,5 +1,5 @@
 # ESP8266 WebServer + Bootstrap + Bootswatch
-How to create a beautifull interface for your ESP8266 project and change theme dynamicaly
+How to create a beautifull interface for your ESP8266 project and change theme dynamically
 * Change theme using Bootswatch CDN
 * Display DHT22 and BMP180 measures
 * Use GPIO from Web Interface (use Leds to simulate for example)
