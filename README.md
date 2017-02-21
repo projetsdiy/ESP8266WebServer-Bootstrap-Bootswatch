@@ -7,7 +7,7 @@ How to create a beautifull interface for your ESP8266 project and change theme d
 Libraries used: WiFiClient, ESP8266WebServer, DHT and Adafruit_BMP085
 Bootswatch CND : https://www.bootstrapcdn.com/
 
-## Equipment used>
+## Equipment used
 
 * Any ESP8266 ESP-12 module, for example <a href="http://www.banggood.com/search/esp8266-nodemcu/0-0-0-1-3-45-0-price-0-0_p-1.html?sortType=asc?p=RA18043558422201601Y" target="_blank" rel="nofollow" data-mce-href="http://www.banggood.com/search/esp8266-nodemcu/0-0-0-1-3-45-0-price-0-0_p-1.html?sortType=asc?p=RA18043558422201601Y">Wemos D1 mini</a>
 * <a href="http://s.click.aliexpress.com/e/eM72zRrbE" target="_blank" rel="nofollow" data-mce-href="http://s.click.aliexpress.com/e/eM72zRrbE">BMP180</a> : Atmospheric pressure sensor
