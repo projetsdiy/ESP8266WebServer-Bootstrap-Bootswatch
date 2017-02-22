@@ -1,3 +1,28 @@
+/* Bootstrap Interface for ESP8266 projects
+ * Change theme using Bootswatch CDN
+ * Display DHT22 and BMP180 measures
+ * Use GPIO from Web Interface (use Leds to simulate for example)
+ * 
+ * Libraries used :WiFiClient, ESP8266WebServer, DHT and Adafruit_BMP085
+ *  
+ * More info 
+ * - Understanding how to program a web server on an ESP8266 : http://www.diyprojects.io/esp8266-web-server-tutorial-create-html-interface-connected-object/
+ * - How to create beautiful interface with Bootstrap : http://www.diyprojects.io/bootstrap-create-beautiful-web-interface-projects-esp8266/
+ * - How to change Boootstrap theme with Bootswatch CDN : http://www.diyprojects.io/bootstrap-web-server-esp8266-use-bootswatch-themes/
+ * 
+ * Créer une interface Web pour vos projets ESP8266
+ * Changer de thème avec Bootswatch
+ * Afficher les mesures d'un DHT22 et d'un BMP180
+ * Comment utiliser le GPIO depuis l'interface Web
+ * 
+ * Tutoriels en Français
+ * - Comprendre comment programmer un serveur web sur un ESP8266 : http://www.projetsdiy.fr/esp8266-serveur-web-interface-graphique-html/
+ * - Comment utiliser Bootstrap dans un projet ESP8266 http://www.projetsdiy.fr/bootstrap-esp8266-webserver-interface/
+ * - Comment changer le thème Bootstrap avec les thème Bootswatch : http://www.projetsdiy.fr/bootstrap-bootswatch-webserver-esp8266-personnaliser-theme-defaut/
+ * 
+ * Licence : MIT
+ * Copyright : www.projetsdiy.fr and www.diyprojects.io
+*/
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 #include <DHT.h>
@@ -207,7 +232,7 @@ void setup() {
   while ( WiFi.status() != WL_CONNECTED ) {
     delay ( 500 ); Serial.print ( "." );
   }
-  // Connexion WiFi établie / WiFi connexion is OK
+  // Connexion WiFi établie - WiFi connexion is OK
   Serial.println ( "" ); 
   Serial.print ( "Connected to " ); Serial.println ( ssid );
   Serial.print ( "IP address: " ); Serial.println ( WiFi.localIP() );
